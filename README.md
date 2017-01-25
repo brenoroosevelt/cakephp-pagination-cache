@@ -31,13 +31,13 @@ public function index()
 		]);
 		
 		// restore pagination from session
-		$this->PaginationSession->restore();
+		$this->PaginationCache->restore();
 		
 		// pagination		
 		$this->set('posts', $this->paginate($this->Posts));
 		
 		// save pagination from session
-		$this->PaginationSession->save();
+		$this->PaginationCache->save();
 }
 ```
  
