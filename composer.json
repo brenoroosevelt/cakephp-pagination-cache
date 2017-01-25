@@ -1,5 +1,5 @@
 {
-    "name": "brenoroosevelt/BRPaginationCache",
+    "name": "brenoroosevelt/cakephp-pagination-cache",
     "description": "BRPaginationCache plugin for CakePHP 3.x",
     "type": "cakephp-plugin",
     "require": {
