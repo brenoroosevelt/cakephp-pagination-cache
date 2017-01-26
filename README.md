@@ -1,5 +1,9 @@
 # Pagination Cache plugin for CakePHP 3.x
 
+[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](README.md)
+[![Total Downloads](https://img.shields.io/packagist/dt/brenoroosevelt/cakephp-pagination-cache.svg?style=flat-square)](https://packagist.org/packages/brenoroosevelt/cakephp-pagination-cache)
+[![Latest Stable Version](https://img.shields.io/packagist/v/brenoroosevelt/cakephp-pagination-cache.svg?style=flat-square&label=stable)](https://packagist.org/packages/brenoroosevelt/cakephp-pagination-cache)
+
 ## Installation
 
 You can install this plugin into your CakePHP application using [composer](http://getcomposer.org).
