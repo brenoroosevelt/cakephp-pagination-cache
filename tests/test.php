@@ -22,7 +22,17 @@ class Test extends TestCase
         $response = new Response();
         
         $this->theController = new Controller($request, $response);
-        $this->plugin = new PaginationCacheComponent($this->theController->components());
+//         $this->plugin = new PaginationCacheComponent($this->theController->components());
+        
+        $this->theController->loadComponent('BRPaginationCache.PaginationCache', [
+                'session' => 'posts_pagination');
+        
+        $this->theController->request->query = ['order'=> 'id', 'limit'=> 5];
+        
+        $this->theController->PaginationCache->restore();
+        
+        $this->theController->PaginationCache->save();
+        
         
     }
 }
